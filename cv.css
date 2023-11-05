@@ -1,0 +1,50 @@
+body {
+	background-color: azure;
+	margin: 0;
+	text-align: center;
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#header {
+	background-color: black;
+	color: white;
+	height: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	background-color: black;
+	color: white;
+	width: fit-content;
+	margin: 0 auto;
+	padding: 3px 20px;
+	border-radius: 10px;
+}
+
+ul {
+	width: fit-content;
+	margin: 10px auto;
+	text-align: left;
+}
+
+li {
+	font-weight: bold;
+}
+
+.history {
+	list-style: none;
+}
+
+.item {
+	margin: 50px 0px;
+}
